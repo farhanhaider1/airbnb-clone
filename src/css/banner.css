@@ -1,0 +1,41 @@
+.banner {
+  height: 50vh;
+  position: relative;
+  background: url("https://images.unsplash.com/photo-1559767949-0faa5c7e9992?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80")
+    no-repeat center center;
+  background-size: cover;
+  /* overflow: hidden; */
+}
+.banner_info {
+  background-color: black;
+  color: white;
+  padding-top: 25vh;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 40px;
+  width: 300px;
+}
+.banner_search {
+  display: flex;
+  flex-direction: column;
+}
+.banner_searchBtn {
+  background-color: white !important;
+  font-weight: 900 !important;
+  text-transform: inherit !important;
+  color: #ff7779 !important;
+}
+.banner_info > button {
+  background-color: #ff7779;
+  color: white;
+  text-transform: inherit;
+  margin-top: 20px;
+  font-weight: 600;
+}
+.banner_info > button:hover {
+  background-color: white;
+  color: #ff7779;
+}
+.banner_info > h5 {
+  margin-top: 10px;
+}
